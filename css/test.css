@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "f1";
+    src: url("../fonts/test/karamuruh.regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f2";
+    src: url("../fonts/test/CountryButton-o7WA.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f3";
+    src: url("../fonts/test/needlework-perfect.regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f4";
+    src: url("../fonts/test/Needlework\ Good.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f5";
+    src: url("../fonts/test/Needlework\ US.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f6";
+    src: url("../fonts/test/PornFashionTrial-M3Vx.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f7";
+    src: url("../fonts/test/vtks-embroidery.regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f8";
+    src: url("../fonts/test/Zigzag-mZOx.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "f9";
+    src: url("../fonts/test/LcrLesleysCrafts-ngyJ.ttf") format('truetype');
+}
+
+.contour {
+    padding: 20px;
+
+}
+
+.fx {
+    font-family: 'f9';
+    font-size: 40px;
+    color: rgb(1, 86, 119);
+}
+
+.fx1 {
+    position: relative;
+    bottom: 15px;
+}
+
+.fx2 {
+
+    position: relative;
+    bottom: 10px;
+
+    font-weight: 600;
+}
+
+.logo1 {
+    text-align: center;
+    font-family: 'f1';
+    font-size: 72px;
+    color:  rgb(1, 86, 119);
+}
+
+.logo2 {
+    text-align: center;
+    font-family: 'f2';
+    font-size: 72px;
+    color: rgb(1, 86, 119);
+}
+
+.logo3 {
+    text-align: center;
+    font-family: 'f3';
+    font-size: 72px;
+    color:  rgb(1, 86, 119);
+}
+
+.logo4 {
+    text-align: center;
+    font-family: 'f4';
+    font-size: 72px;
+    color: rgb(1, 86, 119);
+}
+
+.logo5 {
+    text-align: center;
+    font-family: 'f5';
+    font-size: 72px;
+    color:  rgb(1, 86, 119);
+}
+
+.logo6 {
+    text-align: center;
+    font-family: 'f6';
+    font-size: 72px;
+    color: rgb(1, 86, 119);
+}
+
+.logo7 {
+    text-align: center;
+    font-family: 'f7';
+    font-size: 72px;
+    color:  rgb(1, 86, 119);
+}
+
+.logo8 {
+    text-align: center;
+    font-family: 'f8';
+    font-size: 72px;
+    color:  rgb(1, 86, 119);
+
+
+}

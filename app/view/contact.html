@@ -1,0 +1,102 @@
+<div id="modal-contact-success" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-info">
+                <h5 class="modal-title">Message envoyé</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Votre message a bien été envoyé. <br>Ludi vous répondra à l'adresse mail que vous avez indiqué : <br></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="modal-contact-error" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <h5 class="modal-title">Erreur !</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Une erreur est survenue lors de l'envoi de votre message.<br> 
+                Vous pouvez contacter Ludi directement par mail à l'adresse : 
+                    <a href="mailto:lmilliez200@gmail.com?subject=Renseignements Ludi-Créa">lmilliez200@gmail.com</a>
+                   <br> ou par téléphone au : <a href="tel:+33676452901">06.76.45.29.01</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section Begin -->
+<section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact__content">
+                    <div class="contact__address">
+                        <h5>Me Contacter</h5>
+                        <ul class="mt-4">
+                            <li>
+                                <h6><i class="fa fa-map-marker"></i> Address</h6>
+                                <p>530 rue du Chêne Crupeau, <br>59230 <b>Saint-Amand-les-Eaux</b></p>
+                            </li>
+                            <li>
+                                <h6><i class="fa fa-phone"></i> Tél.</h6>
+                                <span><a href="tel:+33676452901">06.76.45.29.01</a></span>
+                            </li>
+                            <li>
+                                <h6><i class="fa fa-at"></i> Mail</h6>
+                                <span><a href="mailto:lmilliez200@gmail.com?subject=Renseignements Ludi-Créa">lmilliez200@gmail.com</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact__form">
+                        <h5>Par Message</h5>
+                        <form id="contact-form" method="post">
+                            <input type="hidden" name="action" value="contact_message">
+                            <input type="text" placeholder="Nom Prénom" name="fullname"
+                                title="Saisissez votre nom et votre prénom." required>
+                            <input type="email" placeholder="Mail" name="email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                title="Saisissez une adresse mail valide." required>
+                            <textarea placeholder="Message" name="message" title="Saisissez votre message."
+                                required></textarea>
+                            <div class="text-center">
+                                <button type="submit" name="contact_message" class="site-btn">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact__map">
+                    <div style="overflow:hidden;width: 100%;position: relative;"><iframe width="100%" height="730"
+                            src="https://maps.google.com/maps?width=100%&amp;height=730&amp;hl=en&amp;q=530%20rue%20de%20ch%C3%AAne%20crupeux%2C%2059230%20Saint-Amand-Les-Eaux+(Ludi-Cr%C3%A9a)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <!-- <div
+                            style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                            <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
+                                    href="https://embedgooglemaps.com/fr/">embedgooglemaps FR</a> & <a
+                                    href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">tickets online
+                                    buchen</a></small></div> -->
+                        <style>
+                            #gmap_canvas img {
+                                max-width: none !important;
+                                background: none !important
+                            }
+                        </style>
+                    </div><br />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->
